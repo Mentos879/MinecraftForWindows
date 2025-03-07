@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Открыть Microsoft Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      button {
+        background-color: #0078d4;
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #005a9e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Перейти в Microsoft Store</h1>
+      <p>Нажмите на кнопку ниже, чтобы открыть приложение в Microsoft Store.</p>
+      <button
+        onclick="window.location.href='ms-windows-store://pdp/?ProductId=9nblggh2jhxj'"
+      >
+        Открыть в Microsoft Store
+      </button>
+    </div>
+  </body>
+</html>
